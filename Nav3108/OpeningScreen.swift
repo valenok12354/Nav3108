@@ -1,5 +1,5 @@
 //
-//  FoodScreen.swift
+//  OpeningScreen.swift
 //  Nav3108
 //
 //  Created by Koiv Igor on 31.08.2023.
@@ -21,7 +21,7 @@ final class FoodListViewModel: ObservableObject {
     ]
 }
 
-struct FoodScreen: View {
+struct OpeningScreen: View {
     @StateObject var foodListVM: FoodListViewModel = .init()
     @Environment(\.presentationMode) var presentationMode
     
@@ -60,6 +60,6 @@ struct FoodScreen: View {
 
 struct FoodScreen_Previews: PreviewProvider {
     static var previews: some View {
-        FoodScreen()
+        OpeningScreen()
     }
 }
