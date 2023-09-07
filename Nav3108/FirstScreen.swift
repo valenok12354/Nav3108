@@ -19,7 +19,10 @@ struct FirstScreen: View {
                         .colorInvert()
                         .scrollDisabled(true)
                     NavigationLink(destination: SecondScreen()) {
-                        Text("open second screen")
+                        Text("Open second screen")
+                            .padding()
+                            .background(.yellow)
+                            .font(.title)
                     }
                     NavigationLink(destination: SportsOpeningScreen()) {
                         Text("Open Sports")

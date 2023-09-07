@@ -9,16 +9,14 @@ import SwiftUI
 
 struct SecondScreen: View {
     var body: some View {
-        NavigationView {
-            VStack{
-                Text("SecondScreen").font(.largeTitle)
-                List {
-                    NavigationLink(destination: SportsOpeningScreen()) {
-                        Text("Open Sports")
-                            .padding()
-                            .background(.blue)
-                            .font(.title)
-                    }
+        VStack{
+            Text("SecondScreen").font(.largeTitle)
+            List {
+                NavigationLink(destination: SportsOpeningScreen()) {
+                    Text("Open Sports")
+                        .padding()
+                        .background(.blue)
+                        .font(.title)
                 }
             }
         }
