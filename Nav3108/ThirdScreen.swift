@@ -1,5 +1,5 @@
 //
-//  DlScreen.swift
+//  ThirdScreen.swift
 //  Nav3108
 //
 //  Created by Koiv Igor on 04.09.2023.
@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-final class DlScreenViewModel: ObservableObject {
+final class ThirdScreenViewModel: ObservableObject {
     @Published var isShowed: Bool = false
 }
 
 
-struct DlScreen: View {
-    @StateObject var dlScreenVM: DlScreenViewModel = .init()
+struct ThirdScreen: View {
+    @StateObject var dlScreenVM: ThirdScreenViewModel = .init()
     
     var body: some View {
         NavigationView {
             VStack {
-                Text("DlScreen")
+                Text("ThirdScreen")
                 Button {
                     dlScreenVM.isShowed.toggle()
                 } label: {
@@ -35,6 +35,6 @@ struct DlScreen: View {
 
 struct DlScreen_Previews: PreviewProvider {
     static var previews: some View {
-        DlScreen()
+        ThirdScreen()
     }
 }

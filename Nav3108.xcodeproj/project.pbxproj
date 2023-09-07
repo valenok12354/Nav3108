@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E68AA9B22AA5E4DA00FFD191 /* DlScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68AA9B12AA5E4DA00FFD191 /* DlScreen.swift */; };
+		E63D68B22AA9C4F100993ACF /* SportsOpeningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63D68B12AA9C4F100993ACF /* SportsOpeningScreen.swift */; };
+		E68AA9B22AA5E4DA00FFD191 /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68AA9B12AA5E4DA00FFD191 /* ThirdScreen.swift */; };
 		E6A329782AA77CE300C420F7 /* TextView + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A329772AA77CE300C420F7 /* TextView + Extention.swift */; };
 		E6F413362AA1084E003CE028 /* Nav3108App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F413352AA1084E003CE028 /* Nav3108App.swift */; };
 		E6F413382AA1084E003CE028 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F413372AA1084E003CE028 /* ContentView.swift */; };
 		E6F4133A2AA10850003CE028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F413392AA10850003CE028 /* Assets.xcassets */; };
 		E6F4133D2AA10850003CE028 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F4133C2AA10850003CE028 /* Preview Assets.xcassets */; };
-		E6F413442AA10950003CE028 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F413432AA10950003CE028 /* DashboardScreen.swift */; };
-		E6F413482AA10E42003CE028 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F413472AA10E42003CE028 /* ProfileScreen.swift */; };
-		E6F4134A2AA10FFA003CE028 /* FoodScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F413492AA10FFA003CE028 /* FoodScreen.swift */; };
+		E6F413442AA10950003CE028 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F413432AA10950003CE028 /* FirstScreen.swift */; };
+		E6F413482AA10E42003CE028 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F413472AA10E42003CE028 /* SecondScreen.swift */; };
+		E6F4134A2AA10FFA003CE028 /* OpeningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F413492AA10FFA003CE028 /* OpeningScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E68AA9B12AA5E4DA00FFD191 /* DlScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DlScreen.swift; sourceTree = "<group>"; };
+		E63D68B12AA9C4F100993ACF /* SportsOpeningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsOpeningScreen.swift; sourceTree = "<group>"; };
+		E68AA9B12AA5E4DA00FFD191 /* ThirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
 		E6A329772AA77CE300C420F7 /* TextView + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextView + Extention.swift"; sourceTree = "<group>"; };
 		E6F413322AA1084E003CE028 /* Nav3108.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav3108.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F413352AA1084E003CE028 /* Nav3108App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav3108App.swift; sourceTree = "<group>"; };
 		E6F413372AA1084E003CE028 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6F413392AA10850003CE028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6F4133C2AA10850003CE028 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E6F413432AA10950003CE028 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
-		E6F413472AA10E42003CE028 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
-		E6F413492AA10FFA003CE028 /* FoodScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScreen.swift; sourceTree = "<group>"; };
+		E6F413432AA10950003CE028 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		E6F413472AA10E42003CE028 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		E6F413492AA10FFA003CE028 /* OpeningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +65,12 @@
 			children = (
 				E6F413352AA1084E003CE028 /* Nav3108App.swift */,
 				E6F413372AA1084E003CE028 /* ContentView.swift */,
-				E6F413472AA10E42003CE028 /* ProfileScreen.swift */,
-				E6F413432AA10950003CE028 /* DashboardScreen.swift */,
-				E68AA9B12AA5E4DA00FFD191 /* DlScreen.swift */,
+				E6F413472AA10E42003CE028 /* SecondScreen.swift */,
+				E6F413432AA10950003CE028 /* FirstScreen.swift */,
+				E68AA9B12AA5E4DA00FFD191 /* ThirdScreen.swift */,
 				E6A329772AA77CE300C420F7 /* TextView + Extention.swift */,
-				E6F413492AA10FFA003CE028 /* FoodScreen.swift */,
+				E6F413492AA10FFA003CE028 /* OpeningScreen.swift */,
+				E63D68B12AA9C4F100993ACF /* SportsOpeningScreen.swift */,
 				E6F413392AA10850003CE028 /* Assets.xcassets */,
 				E6F4133B2AA10850003CE028 /* Preview Content */,
 			);
@@ -152,13 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6F4134A2AA10FFA003CE028 /* FoodScreen.swift in Sources */,
+				E6F4134A2AA10FFA003CE028 /* OpeningScreen.swift in Sources */,
 				E6F413382AA1084E003CE028 /* ContentView.swift in Sources */,
 				E6F413362AA1084E003CE028 /* Nav3108App.swift in Sources */,
-				E68AA9B22AA5E4DA00FFD191 /* DlScreen.swift in Sources */,
+				E68AA9B22AA5E4DA00FFD191 /* ThirdScreen.swift in Sources */,
 				E6A329782AA77CE300C420F7 /* TextView + Extention.swift in Sources */,
-				E6F413442AA10950003CE028 /* DashboardScreen.swift in Sources */,
-				E6F413482AA10E42003CE028 /* ProfileScreen.swift in Sources */,
+				E6F413442AA10950003CE028 /* FirstScreen.swift in Sources */,
+				E6F413482AA10E42003CE028 /* SecondScreen.swift in Sources */,
+				E63D68B22AA9C4F100993ACF /* SportsOpeningScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +307,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.Nav3108;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,6 +332,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,9 +340,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.Nav3108;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

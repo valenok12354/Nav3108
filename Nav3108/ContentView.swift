@@ -12,20 +12,20 @@ struct ContentView: View {
     
     var body: some View {
         TabView (selection: $section) {
-            DashboardScreen()
+            FirstScreen()
                 .tag(0)
                 .tabItem {
-                    Label("DashboardScreen", systemImage: "star")
+                    Label("FirstScreen", systemImage: "star")
                 }
-            ProfileScreen()
+            SecondScreen()
                 .tag(1)
                 .tabItem {
-                    Label("ProfileScreen", systemImage: "person")
+                    Label("SecondScreen", systemImage: "person")
                 }
-            DlScreen()
+            ThirdScreen()
                 .tag(2)
                 .tabItem {
-                    Label("DlScreen", systemImage: "square.and.arrow.up")
+                    Label("ThirdScreen", systemImage: "square.and.arrow.up")
                 }
         }
     }
