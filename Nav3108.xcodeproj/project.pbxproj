@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E68AA9B22AA5E4DA00FFD191 /* DlScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68AA9B12AA5E4DA00FFD191 /* DlScreen.swift */; };
+		E6A329782AA77CE300C420F7 /* TextView + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A329772AA77CE300C420F7 /* TextView + Extention.swift */; };
 		E6F413362AA1084E003CE028 /* Nav3108App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F413352AA1084E003CE028 /* Nav3108App.swift */; };
 		E6F413382AA1084E003CE028 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F413372AA1084E003CE028 /* ContentView.swift */; };
 		E6F4133A2AA10850003CE028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F413392AA10850003CE028 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E68AA9B12AA5E4DA00FFD191 /* DlScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DlScreen.swift; sourceTree = "<group>"; };
+		E6A329772AA77CE300C420F7 /* TextView + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextView + Extention.swift"; sourceTree = "<group>"; };
 		E6F413322AA1084E003CE028 /* Nav3108.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav3108.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F413352AA1084E003CE028 /* Nav3108App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav3108App.swift; sourceTree = "<group>"; };
 		E6F413372AA1084E003CE028 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				E6F413372AA1084E003CE028 /* ContentView.swift */,
 				E6F413472AA10E42003CE028 /* ProfileScreen.swift */,
 				E6F413432AA10950003CE028 /* DashboardScreen.swift */,
+				E68AA9B12AA5E4DA00FFD191 /* DlScreen.swift */,
+				E6A329772AA77CE300C420F7 /* TextView + Extention.swift */,
 				E6F413492AA10FFA003CE028 /* FoodScreen.swift */,
 				E6F413392AA10850003CE028 /* Assets.xcassets */,
 				E6F4133B2AA10850003CE028 /* Preview Content */,
@@ -149,6 +155,8 @@
 				E6F4134A2AA10FFA003CE028 /* FoodScreen.swift in Sources */,
 				E6F413382AA1084E003CE028 /* ContentView.swift in Sources */,
 				E6F413362AA1084E003CE028 /* Nav3108App.swift in Sources */,
+				E68AA9B22AA5E4DA00FFD191 /* DlScreen.swift in Sources */,
+				E6A329782AA77CE300C420F7 /* TextView + Extention.swift in Sources */,
 				E6F413442AA10950003CE028 /* DashboardScreen.swift in Sources */,
 				E6F413482AA10E42003CE028 /* ProfileScreen.swift in Sources */,
 			);

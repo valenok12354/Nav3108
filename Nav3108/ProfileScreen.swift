@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ProfileScreen: View {
     var body: some View {
-//        VStack {
             NavigationView {
                 VStack {
                     Text("ProfileScreen").font(.largeTitle)
@@ -21,7 +20,6 @@ struct ProfileScreen: View {
                     }
                 }
             }
-//        }
     }
 }
 

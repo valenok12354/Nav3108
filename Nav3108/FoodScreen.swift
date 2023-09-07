@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Food: Identifiable {
+struct Food: Identifiable, Equatable {
     let name: String
     let id: UUID = .init()
 }
@@ -28,7 +28,7 @@ struct FoodScreen: View {
     var body: some View {
         VStack {
             List(foodListVM.foods) { food in
-                NavigationLink(destination: Text(food.name).font(.system(size: 200))) {
+                NavigationLink(destination: Text("\(foodListVM.foods.firstIndex(where: { $0 == food })!)").font(.system(size: 100))) {
                     Text(food.name)
                 }
                 .listRowSeparator(.hidden)

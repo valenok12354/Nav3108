@@ -8,19 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var section: Int = 1
+    @State var section: Int = 0
     
     var body: some View {
         TabView (selection: $section) {
             DashboardScreen()
                 .tag(0)
                 .tabItem {
-                    Label("DashboardScreen", systemImage: "person")
+                    Label("DashboardScreen", systemImage: "star")
                 }
             ProfileScreen()
                 .tag(1)
                 .tabItem {
                     Label("ProfileScreen", systemImage: "person")
+                }
+            DlScreen()
+                .tag(2)
+                .tabItem {
+                    Label("DlScreen", systemImage: "square.and.arrow.up")
                 }
         }
     }
