@@ -25,7 +25,6 @@ final class SportsViewModel: ObservableObject {
 struct SportsOpeningScreen: View {
     @StateObject var sportsListVM: SportsViewModel = .init()
     @Environment(\.presentationMode) var presentationMode
-    
     var body: some View {
         NavigationView {
             VStack {

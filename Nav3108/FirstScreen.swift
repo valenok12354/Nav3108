@@ -30,6 +30,7 @@ struct FirstScreen: View {
                     Spacer()
                 }
             }
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

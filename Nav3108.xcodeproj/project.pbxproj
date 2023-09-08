@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E619DD872AAB6D9300844E78 /* NewsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619DD862AAB6D9300844E78 /* NewsScreen.swift */; };
 		E63D68B22AA9C4F100993ACF /* SportsOpeningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63D68B12AA9C4F100993ACF /* SportsOpeningScreen.swift */; };
+		E63D68B92AAB647000993ACF /* NewsApiNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = E63D68B82AAB647000993ACF /* NewsApiNetworking */; };
 		E68AA9B22AA5E4DA00FFD191 /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68AA9B12AA5E4DA00FFD191 /* ThirdScreen.swift */; };
 		E6A329782AA77CE300C420F7 /* TextView + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A329772AA77CE300C420F7 /* TextView + Extention.swift */; };
 		E6F413362AA1084E003CE028 /* Nav3108App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F413352AA1084E003CE028 /* Nav3108App.swift */; };
@@ -20,7 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E619DD862AAB6D9300844E78 /* NewsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsScreen.swift; sourceTree = "<group>"; };
 		E63D68B12AA9C4F100993ACF /* SportsOpeningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsOpeningScreen.swift; sourceTree = "<group>"; };
+		E63D68BA2AAB6C8200993ACF /* NewsApiNetworking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NewsApiNetworking; sourceTree = "<group>"; };
 		E68AA9B12AA5E4DA00FFD191 /* ThirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
 		E6A329772AA77CE300C420F7 /* TextView + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextView + Extention.swift"; sourceTree = "<group>"; };
 		E6F413322AA1084E003CE028 /* Nav3108.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav3108.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,17 +42,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63D68B92AAB647000993ACF /* NewsApiNetworking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E63D68B72AAB646F00993ACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E6F413292AA1084E003CE028 = {
 			isa = PBXGroup;
 			children = (
 				E6F413342AA1084E003CE028 /* Nav3108 */,
 				E6F413332AA1084E003CE028 /* Products */,
+				E63D68B72AAB646F00993ACF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +76,7 @@
 		E6F413342AA1084E003CE028 /* Nav3108 */ = {
 			isa = PBXGroup;
 			children = (
+				E63D68BA2AAB6C8200993ACF /* NewsApiNetworking */,
 				E6F413352AA1084E003CE028 /* Nav3108App.swift */,
 				E6F413372AA1084E003CE028 /* ContentView.swift */,
 				E6F413472AA10E42003CE028 /* SecondScreen.swift */,
@@ -73,6 +87,7 @@
 				E63D68B12AA9C4F100993ACF /* SportsOpeningScreen.swift */,
 				E6F413392AA10850003CE028 /* Assets.xcassets */,
 				E6F4133B2AA10850003CE028 /* Preview Content */,
+				E619DD862AAB6D9300844E78 /* NewsScreen.swift */,
 			);
 			path = Nav3108;
 			sourceTree = "<group>";
@@ -101,6 +116,9 @@
 			dependencies = (
 			);
 			name = Nav3108;
+			packageProductDependencies = (
+				E63D68B82AAB647000993ACF /* NewsApiNetworking */,
+			);
 			productName = Nav3108;
 			productReference = E6F413322AA1084E003CE028 /* Nav3108.app */;
 			productType = "com.apple.product-type.application";
@@ -157,6 +175,7 @@
 			files = (
 				E6F4134A2AA10FFA003CE028 /* OpeningScreen.swift in Sources */,
 				E6F413382AA1084E003CE028 /* ContentView.swift in Sources */,
+				E619DD872AAB6D9300844E78 /* NewsScreen.swift in Sources */,
 				E6F413362AA1084E003CE028 /* Nav3108App.swift in Sources */,
 				E68AA9B22AA5E4DA00FFD191 /* ThirdScreen.swift in Sources */,
 				E6A329782AA77CE300C420F7 /* TextView + Extention.swift in Sources */,
@@ -371,6 +390,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E63D68B82AAB647000993ACF /* NewsApiNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NewsApiNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E6F4132A2AA1084E003CE028 /* Project object */;
 }

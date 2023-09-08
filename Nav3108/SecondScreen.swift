@@ -22,6 +22,7 @@ struct SecondScreen: View {
                 }
             }
         }
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
