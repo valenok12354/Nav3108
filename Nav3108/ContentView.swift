@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var section: Int = 0
+    @State var section: Int = 1
     
     var body: some View {
         TabView (selection: $section) {
@@ -17,10 +17,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("FirstScreen", systemImage: "star")
                 }
-            SecondScreen()
+            NewsScreen()
                 .tag(1)
                 .tabItem {
-                    Label("SecondScreen", systemImage: "person")
+                    Label("NewsScreen", systemImage: "person")
                 }
             ThirdScreen()
                 .tag(2)
